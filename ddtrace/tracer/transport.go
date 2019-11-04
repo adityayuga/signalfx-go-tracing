@@ -85,7 +85,7 @@ func newHTTPTransport(addr string, roundTripper http.RoundTripper) *httpTranspor
 		"Datadog-Meta-Lang-Version":     strings.TrimPrefix(runtime.Version(), "go"),
 		"Datadog-Meta-Lang-Interpreter": runtime.Compiler + "-" + runtime.GOARCH + "-" + runtime.GOOS,
 		"Datadog-Meta-Tracer-Version":   tracerVersion,
-		"Content-Type":                  "application/msgpack",
+		"Content-Type":                  "application/json",
 	}
 	return &httpTransport{
 		traceURL: fmt.Sprintf("http://%s/v1/trace", resolveAddr(addr)),
