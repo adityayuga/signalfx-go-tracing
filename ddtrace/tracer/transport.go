@@ -88,7 +88,7 @@ func newHTTPTransport(addr string, roundTripper http.RoundTripper) *httpTranspor
 		"Content-Type":                  "application/msgpack",
 	}
 	return &httpTransport{
-		traceURL: fmt.Sprintf("http://%s/v0.4/traces", resolveAddr(addr)),
+		traceURL: fmt.Sprintf("http://%s/v1/trace", resolveAddr(addr)),
 		client: &http.Client{
 			Transport: roundTripper,
 			Timeout:   defaultHTTPTimeout,
