@@ -3,7 +3,7 @@ package mgo
 import (
 	"fmt"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 )
 
 func setTagsForCommand(tags map[string]string, command string) map[string]string {

@@ -1,14 +1,14 @@
 // Package gin provides functions to trace the gin-gonic/gin package (https://github.com/gin-gonic/gin).
-package gin // import "github.com/signalfx/signalfx-go-tracing/contrib/gin-gonic/gin"
+package gin // import "github.com/adityayuga/signalfx-go-tracing/contrib/gin-gonic/gin"
 
 import (
 	"fmt"
 	"strconv"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
-	"github.com/signalfx/signalfx-go-tracing/internal/utils"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/internal/utils"
 
 	"github.com/gin-gonic/gin"
 )

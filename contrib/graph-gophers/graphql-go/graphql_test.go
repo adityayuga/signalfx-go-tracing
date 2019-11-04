@@ -9,9 +9,9 @@ import (
 	graphql "github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
 	"github.com/stretchr/testify/assert"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
-	"github.com/signalfx/signalfx-go-tracing/internal/globalconfig"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/internal/globalconfig"
 )
 
 type testResolver struct{}

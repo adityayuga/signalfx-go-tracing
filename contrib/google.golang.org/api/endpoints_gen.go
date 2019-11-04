@@ -5,7 +5,7 @@ package api
 import (
 	"regexp"
 
-	"github.com/signalfx/signalfx-go-tracing/contrib/google.golang.org/api/internal"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/google.golang.org/api/internal"
 )
 
 func init() {

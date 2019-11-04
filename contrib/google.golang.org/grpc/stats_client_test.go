@@ -11,9 +11,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/stats"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 func TestClientStatsHandler(t *testing.T) {

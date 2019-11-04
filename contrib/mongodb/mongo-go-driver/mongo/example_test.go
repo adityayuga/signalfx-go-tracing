@@ -7,7 +7,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	mongotrace "github.com/signalfx/signalfx-go-tracing/contrib/mongodb/mongo-go-driver/mongo"
+	mongotrace "github.com/adityayuga/signalfx-go-tracing/contrib/mongodb/mongo-go-driver/mongo"
 )
 
 func Example() {

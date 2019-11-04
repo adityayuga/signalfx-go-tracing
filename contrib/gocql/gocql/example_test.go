@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/gocql/gocql"
-	gocqltrace "github.com/signalfx/signalfx-go-tracing/contrib/gocql/gocql"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	gocqltrace "github.com/adityayuga/signalfx-go-tracing/contrib/gocql/gocql"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // To trace Cassandra commands, use our query wrapper WrapQuery.

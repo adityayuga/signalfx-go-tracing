@@ -12,7 +12,7 @@ import (
 	"github.com/signalfx/golib/pointer"
 	sfxtrace "github.com/signalfx/golib/trace"
 	traceformat "github.com/signalfx/golib/trace/format"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 )
 
 const (

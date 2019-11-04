@@ -4,10 +4,10 @@ package echo
 import (
 	"strconv"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
-	"github.com/signalfx/signalfx-go-tracing/internal/utils"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/internal/utils"
 
 	"github.com/labstack/echo"
 )

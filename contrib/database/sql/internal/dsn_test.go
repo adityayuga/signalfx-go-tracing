@@ -3,7 +3,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 	"github.com/stretchr/testify/assert"
 )
 

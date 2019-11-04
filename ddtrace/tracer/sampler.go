@@ -6,8 +6,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 )
 
 // Sampler is the generic interface of any sampler. It must be safe for concurrent use.

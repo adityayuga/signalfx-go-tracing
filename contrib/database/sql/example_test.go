@@ -5,9 +5,9 @@ import (
 	"log"
 
 	sqlite "github.com/mattn/go-sqlite3" // Setup application to use Sqlite
-	sqltrace "github.com/signalfx/signalfx-go-tracing/contrib/database/sql"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	sqltrace "github.com/adityayuga/signalfx-go-tracing/contrib/database/sql"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"

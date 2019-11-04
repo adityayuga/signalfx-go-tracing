@@ -8,10 +8,10 @@ import (
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
-	"github.com/signalfx/signalfx-go-tracing/contrib/google.golang.org/internal/grpcutil"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/google.golang.org/internal/grpcutil"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 type clientStream struct {

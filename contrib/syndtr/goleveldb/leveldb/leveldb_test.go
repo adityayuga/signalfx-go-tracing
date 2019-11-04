@@ -9,10 +9,10 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 	"github.com/syndtr/goleveldb/leveldb/util"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
-	"github.com/signalfx/signalfx-go-tracing/internal/globalconfig"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/internal/globalconfig"
 )
 
 func TestDB(t *testing.T) {

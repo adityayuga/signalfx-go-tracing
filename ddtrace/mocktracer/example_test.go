@@ -1,7 +1,7 @@
 package mocktracer_test
 
 import (
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
 )
 
 func Example() {

@@ -6,7 +6,7 @@ references:
     image: circleci/golang:latest
 
   workdir: &workdir
-    working_directory: /go/src/github.com/signalfx/signalfx-go-tracing
+    working_directory: /go/src/github.com/adityayuga/signalfx-go-tracing
 
 executors:
   go:

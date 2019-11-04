@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
 )
 
 var _ ddtrace.SpanContext = (*spanContext)(nil)

@@ -6,8 +6,8 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/lib/pq"
 
-	sqltrace "github.com/signalfx/signalfx-go-tracing/contrib/database/sql"
-	gormtrace "github.com/signalfx/signalfx-go-tracing/contrib/jinzhu/gorm"
+	sqltrace "github.com/adityayuga/signalfx-go-tracing/contrib/database/sql"
+	gormtrace "github.com/adityayuga/signalfx-go-tracing/contrib/jinzhu/gorm"
 )
 
 func ExampleOpen() {

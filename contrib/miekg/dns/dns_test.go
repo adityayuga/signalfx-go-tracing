@@ -7,8 +7,8 @@ import (
 
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
 )
 
 func TestDNS(t *testing.T) {

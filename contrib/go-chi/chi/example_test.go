@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-chi/chi"
 
-	chitrace "github.com/signalfx/signalfx-go-tracing/contrib/go-chi/chi"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	chitrace "github.com/adityayuga/signalfx-go-tracing/contrib/go-chi/chi"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {

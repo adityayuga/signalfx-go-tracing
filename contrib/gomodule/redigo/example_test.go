@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	redigotrace "github.com/signalfx/signalfx-go-tracing/contrib/gomodule/redigo"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	redigotrace "github.com/adityayuga/signalfx-go-tracing/contrib/gomodule/redigo"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // To start tracing Redis commands, use the TracedDial function to create a connection,

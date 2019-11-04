@@ -1,15 +1,15 @@
-package mocktracer // import "github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
+package mocktracer // import "github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
 
 import (
 	"fmt"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 	"sync"
 	"time"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 )
 
 var _ ddtrace.Span = (*mockspan)(nil)

@@ -2,8 +2,8 @@ package tracing
 
 import (
 	"github.com/opentracing/opentracing-go"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/opentracer"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/opentracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 	"os"
 )
 

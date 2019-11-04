@@ -1,5 +1,5 @@
 // Package api provides functions to trace the google.golang.org/api package.
-package api // import "github.com/signalfx/signalfx-go-tracing/contrib/google.golang.org/api"
+package api // import "github.com/adityayuga/signalfx-go-tracing/contrib/google.golang.org/api"
 
 //go:generate go run make_endpoints.go
 
@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"golang.org/x/oauth2/google"
-	"github.com/signalfx/signalfx-go-tracing/contrib/google.golang.org/api/internal"
-	httptrace "github.com/signalfx/signalfx-go-tracing/contrib/net/http"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/google.golang.org/api/internal"
+	httptrace "github.com/adityayuga/signalfx-go-tracing/contrib/net/http"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 )
 
 // apiEndpoints are all of the defined endpoints for the Google API; it is populated

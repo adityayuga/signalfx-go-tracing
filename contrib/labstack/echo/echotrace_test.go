@@ -2,16 +2,16 @@ package echo
 
 import (
 	"errors"
-	"github.com/signalfx/signalfx-go-tracing/contrib/internal/testutil"
-	"github.com/signalfx/signalfx-go-tracing/tracing"
-	"github.com/signalfx/signalfx-go-tracing/zipkinserver"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/internal/testutil"
+	"github.com/adityayuga/signalfx-go-tracing/tracing"
+	"github.com/adityayuga/signalfx-go-tracing/zipkinserver"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"

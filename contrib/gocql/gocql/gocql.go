@@ -1,5 +1,5 @@
 // Package gocql provides functions to trace the gocql/gocql package (https://github.com/gocql/gocql).
-package gocql // import "github.com/signalfx/signalfx-go-tracing/contrib/gocql/gocql"
+package gocql // import "github.com/adityayuga/signalfx-go-tracing/contrib/gocql/gocql"
 
 import (
 	"context"
@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	"github.com/gocql/gocql"
 )

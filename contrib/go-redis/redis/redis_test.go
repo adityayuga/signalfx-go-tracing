@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
-	"github.com/signalfx/signalfx-go-tracing/internal/globalconfig"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/internal/globalconfig"
 
 	"github.com/go-redis/redis"
 	"github.com/stretchr/testify/assert"

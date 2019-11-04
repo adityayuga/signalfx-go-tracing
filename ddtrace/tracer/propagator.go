@@ -3,7 +3,7 @@ package tracer
 import (
 	"errors"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
 )
 
 // Propagator implementations should be able to inject and extract

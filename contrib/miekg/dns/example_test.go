@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/miekg/dns"
-	dnstrace "github.com/signalfx/signalfx-go-tracing/contrib/miekg/dns"
+	dnstrace "github.com/adityayuga/signalfx-go-tracing/contrib/miekg/dns"
 )
 
 func Example_client() {

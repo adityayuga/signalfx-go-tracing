@@ -2,13 +2,13 @@ package tracer
 
 import (
 	"errors"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
 	"net/http"
 	"os"
 	"strconv"
 	"testing"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 	"github.com/stretchr/testify/assert"
 )
 

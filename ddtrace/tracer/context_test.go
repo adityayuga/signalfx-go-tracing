@@ -2,7 +2,7 @@ package tracer
 
 import (
 	"context"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

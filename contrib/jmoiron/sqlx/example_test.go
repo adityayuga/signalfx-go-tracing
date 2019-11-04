@@ -6,8 +6,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
 
-	sqltrace "github.com/signalfx/signalfx-go-tracing/contrib/database/sql"
-	sqlxtrace "github.com/signalfx/signalfx-go-tracing/contrib/jmoiron/sqlx"
+	sqltrace "github.com/adityayuga/signalfx-go-tracing/contrib/database/sql"
+	sqlxtrace "github.com/adityayuga/signalfx-go-tracing/contrib/jmoiron/sqlx"
 )
 
 func ExampleOpen() {

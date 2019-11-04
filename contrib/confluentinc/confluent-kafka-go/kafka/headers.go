@@ -2,7 +2,7 @@ package kafka
 
 import (
 	"github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // A MessageCarrier injects and extracts traces from a sarama.ProducerMessage.

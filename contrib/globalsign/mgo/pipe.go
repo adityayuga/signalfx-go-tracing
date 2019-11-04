@@ -2,7 +2,7 @@ package mgo
 
 import (
 	"github.com/globalsign/mgo"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // Pipe is an mgo.Pipe instance along with the data necessary for tracing.

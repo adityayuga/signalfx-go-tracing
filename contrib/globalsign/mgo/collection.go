@@ -1,7 +1,7 @@
 package mgo
 
 import (
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"

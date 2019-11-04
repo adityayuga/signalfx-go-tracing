@@ -1,14 +1,14 @@
 // Package mux provides tracing functions for tracing the gorilla/mux package (https://github.com/gorilla/mux).
-package mux // import "github.com/signalfx/signalfx-go-tracing/contrib/gorilla/mux"
+package mux // import "github.com/adityayuga/signalfx-go-tracing/contrib/gorilla/mux"
 
 import (
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/signalfx/signalfx-go-tracing/contrib/internal/httputil"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/internal/httputil"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 )
 
 // Router registers routes to be matched and dispatches a handler.

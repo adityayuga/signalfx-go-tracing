@@ -1,4 +1,4 @@
-package redis // import "github.com/signalfx/signalfx-go-tracing/contrib/go-redis/redis"
+package redis // import "github.com/adityayuga/signalfx-go-tracing/contrib/go-redis/redis"
 
 type clientConfig struct {
 	serviceName   string

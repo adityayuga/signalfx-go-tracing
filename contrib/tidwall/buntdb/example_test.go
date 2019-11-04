@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	buntdbtrace "github.com/signalfx/signalfx-go-tracing/contrib/tidwall/buntdb"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	buntdbtrace "github.com/adityayuga/signalfx-go-tracing/contrib/tidwall/buntdb"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 func Example() {

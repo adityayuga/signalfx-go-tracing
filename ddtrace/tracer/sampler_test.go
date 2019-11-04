@@ -1,14 +1,14 @@
 package tracer
 
 import (
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
 	"io/ioutil"
 	"math"
 	"strings"
 	"sync"
 	"testing"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 	"github.com/stretchr/testify/assert"
 )
 

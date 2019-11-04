@@ -1,12 +1,12 @@
 // Package http provides functions to trace the net/http package (https://golang.org/pkg/net/http).
-package http // import "github.com/signalfx/signalfx-go-tracing/contrib/net/http"
+package http // import "github.com/adityayuga/signalfx-go-tracing/contrib/net/http"
 
 import (
 	"net/http"
 
-	"github.com/signalfx/signalfx-go-tracing/contrib/internal/httputil"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/internal/httputil"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // ServeMux is an HTTP request multiplexer that traces all the incoming requests.

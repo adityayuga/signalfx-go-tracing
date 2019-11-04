@@ -6,8 +6,8 @@ import (
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc/stats"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // NewClientStatsHandler returns a gRPC client stats.Handler to trace RPC calls.

@@ -3,7 +3,7 @@ package http_test
 import (
 	"net/http"
 
-	httptrace "github.com/signalfx/signalfx-go-tracing/contrib/net/http"
+	httptrace "github.com/adityayuga/signalfx-go-tracing/contrib/net/http"
 )
 
 func Example() {

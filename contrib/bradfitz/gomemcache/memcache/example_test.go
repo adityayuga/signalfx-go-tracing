@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/bradfitz/gomemcache/memcache"
-	memcachetrace "github.com/signalfx/signalfx-go-tracing/contrib/bradfitz/gomemcache/memcache"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	memcachetrace "github.com/adityayuga/signalfx-go-tracing/contrib/bradfitz/gomemcache/memcache"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 func Example() {

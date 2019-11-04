@@ -10,9 +10,9 @@ import (
 	"os"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
-	"github.com/signalfx/signalfx-go-tracing/internal/globalconfig"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/internal/globalconfig"
 	elasticv3 "gopkg.in/olivere/elastic.v3"
 	elasticv5 "gopkg.in/olivere/elastic.v5"
 

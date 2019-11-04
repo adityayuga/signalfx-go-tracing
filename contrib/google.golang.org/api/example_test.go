@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	cloudresourcemanager "google.golang.org/api/cloudresourcemanager/v1"
-	apitrace "github.com/signalfx/signalfx-go-tracing/contrib/google.golang.org/api"
+	apitrace "github.com/adityayuga/signalfx-go-tracing/contrib/google.golang.org/api"
 )
 
 func Example() {

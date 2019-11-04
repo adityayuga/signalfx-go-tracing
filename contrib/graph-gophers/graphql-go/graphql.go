@@ -4,7 +4,7 @@
 // https://godoc.org/github.com/graph-gophers/graphql-go/trace subpackage.
 // Create a new Tracer with `NewTracer` and pass it as an additional option to
 // `MustParseSchema`.
-package graphql // import "github.com/signalfx/signalfx-go-tracing/contrib/graph-gophers/graphql-go"
+package graphql // import "github.com/adityayuga/signalfx-go-tracing/contrib/graph-gophers/graphql-go"
 
 import (
 	"context"
@@ -13,9 +13,9 @@ import (
 	"github.com/graph-gophers/graphql-go/errors"
 	"github.com/graph-gophers/graphql-go/introspection"
 	"github.com/graph-gophers/graphql-go/trace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 	"database/sql/driver"
 	"time"
 
-	"github.com/signalfx/signalfx-go-tracing/contrib/database/sql/internal"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/database/sql/internal"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 var _ driver.Driver = (*tracedDriver)(nil)

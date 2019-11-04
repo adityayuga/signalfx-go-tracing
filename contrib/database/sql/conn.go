@@ -1,4 +1,4 @@
-package sql // import "github.com/signalfx/signalfx-go-tracing/contrib/database/sql"
+package sql // import "github.com/adityayuga/signalfx-go-tracing/contrib/database/sql"
 
 import (
 	"context"

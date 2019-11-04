@@ -1,12 +1,12 @@
 // Package mgo provides functions and types which allow tracing of the MGO MongoDB client (https://github.com/globalsign/mgo)
-package mgo // import "github.com/signalfx/signalfx-go-tracing/contrib/globalsign/mgo"
+package mgo // import "github.com/adityayuga/signalfx-go-tracing/contrib/globalsign/mgo"
 
 import (
 	"strings"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	"github.com/globalsign/mgo"
 )

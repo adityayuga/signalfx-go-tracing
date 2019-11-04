@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/signalfx/signalfx-go-tracing/contrib/internal/sqltest"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/internal/sqltest"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"

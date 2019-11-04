@@ -1,7 +1,7 @@
-package opentracer // import "github.com/signalfx/signalfx-go-tracing/ddtrace/opentracer"
+package opentracer // import "github.com/adityayuga/signalfx-go-tracing/ddtrace/opentracer"
 
 import (
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 
 	opentracing "github.com/opentracing/opentracing-go"
 )

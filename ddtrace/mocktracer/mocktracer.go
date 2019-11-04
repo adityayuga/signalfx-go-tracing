@@ -12,8 +12,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 var _ ddtrace.Tracer = (*mocktracer)(nil)

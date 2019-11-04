@@ -1,7 +1,7 @@
 package sarama
 
 import (
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 	sarama "gopkg.in/Shopify/sarama.v1"
 )
 

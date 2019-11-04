@@ -1,15 +1,15 @@
 //go:generate protoc -I . fixtures_test.proto --go_out=plugins=grpc:.
 
 // Package grpc provides functions to trace the google.golang.org/grpc package v1.2.
-package grpc // import "github.com/signalfx/signalfx-go-tracing/contrib/google.golang.org/grpc"
+package grpc // import "github.com/adityayuga/signalfx-go-tracing/contrib/google.golang.org/grpc"
 
 import (
 	"io"
 
-	"github.com/signalfx/signalfx-go-tracing/contrib/google.golang.org/internal/grpcutil"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/google.golang.org/internal/grpcutil"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc/codes"

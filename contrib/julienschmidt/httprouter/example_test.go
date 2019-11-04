@@ -7,9 +7,9 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	httptrace "github.com/signalfx/signalfx-go-tracing/contrib/julienschmidt/httprouter"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	httptrace "github.com/adityayuga/signalfx-go-tracing/contrib/julienschmidt/httprouter"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {

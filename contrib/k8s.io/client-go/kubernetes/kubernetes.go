@@ -1,14 +1,14 @@
 // Package kubernetes provides functions to trace k8s.io/client-go (https://github.com/kubernetes/client-go).
-package kubernetes // import "github.com/signalfx/signalfx-go-tracing/contrib/k8s.io/client-go/kubernetes"
+package kubernetes // import "github.com/adityayuga/signalfx-go-tracing/contrib/k8s.io/client-go/kubernetes"
 
 import (
 	"net/http"
 	"strings"
 
-	httptrace "github.com/signalfx/signalfx-go-tracing/contrib/net/http"
+	httptrace "github.com/adityayuga/signalfx-go-tracing/contrib/net/http"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
 )
 
 const (

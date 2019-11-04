@@ -1,10 +1,10 @@
 // Package sarama provides functions to trace the Shopify/sarama package (https://github.com/Shopify/sarama).
-package sarama // import "github.com/signalfx/signalfx-go-tracing/contrib/Shopify/sarama"
+package sarama // import "github.com/adityayuga/signalfx-go-tracing/contrib/Shopify/sarama"
 
 import (
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	sarama "gopkg.in/Shopify/sarama.v1"
 )

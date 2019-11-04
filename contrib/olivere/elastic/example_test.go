@@ -3,8 +3,8 @@ package elastic_test
 import (
 	"context"
 
-	elastictrace "github.com/signalfx/signalfx-go-tracing/contrib/olivere/elastic"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	elastictrace "github.com/adityayuga/signalfx-go-tracing/contrib/olivere/elastic"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 	elasticv3 "gopkg.in/olivere/elastic.v3"
 	elasticv5 "gopkg.in/olivere/elastic.v5"
 )

@@ -1,12 +1,12 @@
 // Package leveldb provides functions to trace the syndtr/goleveldb package (https://github.com/syndtr/goleveldb).
-package leveldb // import "github.com/signalfx/signalfx-go-tracing/contrib/syndtr/goleveldb/leveldb"
+package leveldb // import "github.com/adityayuga/signalfx-go-tracing/contrib/syndtr/goleveldb/leveldb"
 
 import (
 	"context"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

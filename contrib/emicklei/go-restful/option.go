@@ -1,6 +1,6 @@
 package restful
 
-import "github.com/signalfx/signalfx-go-tracing/internal/globalconfig"
+import "github.com/adityayuga/signalfx-go-tracing/internal/globalconfig"
 
 type config struct {
 	serviceName   string

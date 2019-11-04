@@ -3,7 +3,7 @@ package tracer
 import (
 	"context"
 	"github.com/opentracing/opentracing-go"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
 )
 
 // ContextWithSpan returns a copy of the given context which includes the span s.

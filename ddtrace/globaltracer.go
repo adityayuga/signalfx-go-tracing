@@ -1,4 +1,4 @@
-package ddtrace // import "github.com/signalfx/signalfx-go-tracing/ddtrace"
+package ddtrace // import "github.com/adityayuga/signalfx-go-tracing/ddtrace"
 
 import (
 	"github.com/opentracing/opentracing-go"

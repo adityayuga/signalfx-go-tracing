@@ -10,14 +10,14 @@
 //  opentracing.StartSpan("http.request", opentracer.ResourceName("/user/profile"))
 //
 // Some libraries and frameworks are supported out-of-the-box by using our integrations. You can see a list
-// of supported integrations here: https://godoc.org/github.com/signalfx/signalfx-go-tracing/contrib. They are fully
+// of supported integrations here: https://godoc.org/github.com/adityayuga/signalfx-go-tracing/contrib. They are fully
 // compatible with the Opentracing implementation.
 package opentracer
 
 import (
 	"github.com/opentracing/opentracing-go"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // New creates, instantiates and returns an Opentracing compatible version of the

@@ -5,8 +5,8 @@
 // package "ext" provides a set of tag names and values specific to Datadog's APM product.
 //
 // To get started, visit the documentation for any of the packages you'd like to begin
-// with by accessing the subdirectories of this package: https://godoc.org/github.com/signalfx/signalfx-go-tracing/ddtrace#pkg-subdirectories.
-package ddtrace // import "github.com/signalfx/signalfx-go-tracing/ddtrace"
+// with by accessing the subdirectories of this package: https://godoc.org/github.com/adityayuga/signalfx-go-tracing/ddtrace#pkg-subdirectories.
+package ddtrace // import "github.com/adityayuga/signalfx-go-tracing/ddtrace"
 
 import (
 	"github.com/opentracing/opentracing-go"

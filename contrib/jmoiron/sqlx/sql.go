@@ -5,10 +5,10 @@
 // For more information on registering and why this needs to happen, please check the
 // github.com/DataDog/dd-trace-go/contrib/database/sql package.
 //
-package sqlx // import "github.com/signalfx/signalfx-go-tracing/contrib/jmoiron/sqlx"
+package sqlx // import "github.com/adityayuga/signalfx-go-tracing/contrib/jmoiron/sqlx"
 
 import (
-	sqltraced "github.com/signalfx/signalfx-go-tracing/contrib/database/sql"
+	sqltraced "github.com/adityayuga/signalfx-go-tracing/contrib/database/sql"
 
 	"github.com/jmoiron/sqlx"
 )

@@ -3,7 +3,7 @@ package sql
 import (
 	"testing"
 
-	"github.com/signalfx/signalfx-go-tracing/internal/globalconfig"
+	"github.com/adityayuga/signalfx-go-tracing/internal/globalconfig"
 	"gotest.tools/assert"
 )
 

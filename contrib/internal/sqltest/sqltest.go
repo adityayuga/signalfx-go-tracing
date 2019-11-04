@@ -1,19 +1,19 @@
-package sqltest // import "github.com/signalfx/signalfx-go-tracing/contrib/internal/sqltest"
+package sqltest // import "github.com/adityayuga/signalfx-go-tracing/contrib/internal/sqltest"
 
 import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/signalfx/signalfx-go-tracing/contrib/internal/testutil"
-	"github.com/signalfx/signalfx-go-tracing/tracing"
-	"github.com/signalfx/signalfx-go-tracing/zipkinserver"
+	"github.com/adityayuga/signalfx-go-tracing/contrib/internal/testutil"
+	"github.com/adityayuga/signalfx-go-tracing/tracing"
+	"github.com/adityayuga/signalfx-go-tracing/zipkinserver"
 	"log"
 	"strconv"
 	"testing"
 
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/mocktracer"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/mocktracer"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

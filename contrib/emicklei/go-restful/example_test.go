@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/emicklei/go-restful"
-	restfultrace "github.com/signalfx/signalfx-go-tracing/contrib/emicklei/go-restful"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	restfultrace "github.com/adityayuga/signalfx-go-tracing/contrib/emicklei/go-restful"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // To start tracing requests, add the trace filter to your go-restful router.

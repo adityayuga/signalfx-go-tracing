@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	redistrace "github.com/signalfx/signalfx-go-tracing/contrib/go-redis/redis"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/ext"
-	"github.com/signalfx/signalfx-go-tracing/ddtrace/tracer"
+	redistrace "github.com/adityayuga/signalfx-go-tracing/contrib/go-redis/redis"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/ext"
+	"github.com/adityayuga/signalfx-go-tracing/ddtrace/tracer"
 )
 
 // To start tracing Redis, simply create a new client using the library and continue
